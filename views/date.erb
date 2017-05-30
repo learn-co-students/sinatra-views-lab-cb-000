@@ -1,0 +1,14 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+  </head>
+  <body>
+    <% require 'date' %>
+    <% today_name = Date::DAYNAMES[Date.today.wday] %>
+    <% month_name = Date::MONTHNAMES[Date.today.month] %>
+    <% day = Date.today.day %>
+    <% year = Date.today.year %>
+    <% Today = "The date is #{today_name}, #{month_name} #{day}, #{year}" %>
+    <h1><%= Today %></h1>
+  </body> 
+</html>
