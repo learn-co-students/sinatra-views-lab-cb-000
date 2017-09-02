@@ -27,6 +27,7 @@ describe App do
       expect(last_response.body).to include("Goodbye Joe")
     end
   end
+
   describe 'GET /date' do
     before do
       get '/date'
@@ -49,4 +50,3 @@ describe App do
     end
   end
 end
-
