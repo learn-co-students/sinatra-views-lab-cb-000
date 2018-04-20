@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sinatra Views Lab</title>
+  </head>
+  <body>
+    <h1>Today</h1>
+    <p><%= "The date is #{Date::DAYNAMES[Date.today.wday]}, #{Date::MONTHNAMES[Date.today.month]} #{Date.today.day}, #{Date.today.year}" %></p>
+  </body>
+</html>
