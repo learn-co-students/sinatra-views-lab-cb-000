@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      <h1>Today</h1>
+    </title>
+  </head>
+  <body>
+    <p><% date = DateTime.now
+          day = date.strftime("%A")
+          month = date.strftime("%B")
+          daynum = date.strftime("%d")
+          year = date.strftime("%Y") %>
+        <%= "The date is " + "#{day}" + ", " + "#{month}" + " #{daynum}" + ", " + "#{year}" %></p>
+
+  </body>
+</html>
