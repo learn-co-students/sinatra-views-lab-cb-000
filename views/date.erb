@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First View!!</title>
+    </head>
+    <body>
+        <%= require 'date' %>
+        <!--<%= d = DateTime.new(2015, 11, 18) %>-->
+        <%= d = DateTime.now %>
+        <h1>The date is <%= "#{d.strftime("%A, %B %e, %Y")}"%></h1>
+    </body>
+</html>
