@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<HTML>
+  <head>
+  </head>
+  <body>
+    <%
+      time = DateTime.now
+      string = time.strftime("Today is %A, %B %d, %Y")
+    %>
+    <p>
+      <%=
+        "The date is #{string}"
+       %>
+    </p>
+  </body>
+</HTML>
