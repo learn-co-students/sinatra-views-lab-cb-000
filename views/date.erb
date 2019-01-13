@@ -1,0 +1,6 @@
+<h1>Today</h1>
+<% days = ["Sunday","Monday", "Tuesday", "Wednesday", "thursday", "Friday", "Saturday"] %>
+ <% months = ["January", "February", "March", "April", "May", "June", "July",
+    "August", "September", "October", "November", "December"] %>
+<% d = Time.now %>
+<p><%= "The date is #{days[d.wday]}, #{months[d.mon - 1]} #{d.day}, #{d.year}"%></p>
