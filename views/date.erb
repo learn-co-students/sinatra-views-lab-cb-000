@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello.erb</title>
+    </head>
+    <body>
+        <% require 'date' %>
+        <p><%= "The date is " + Date.today.strftime(format='%A') + ", " + Date.today.strftime(format='%B') + " " + Date.today.strftime(format='%-d') + ", " + Date.today.strftime(format='%Y') %></p>
+    </body>
+</html>
